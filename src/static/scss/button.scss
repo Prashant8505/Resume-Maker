@@ -1,0 +1,31 @@
+.btn {
+
+    border-radius: 5px;
+    height: 4rem;
+    padding: 1%;
+    border: none;
+    position: relative;
+    background: rgb(211,255,0);
+    background: linear-gradient(90deg, rgba(211,255,0,1) 58%, rgba(255,231,0,1) 100%);
+    color: black;
+    border-radius: 8px;
+
+    &:hover {
+        color: black;
+        background: white;
+        border: 2px solid #e4cf5a;
+    }
+    &.small{
+        border: 2px solid #151616;
+    padding: 7px !important;
+    border-radius: 0.6rem;
+    }
+}
+
+.btn-back {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    margin-top: 20px 0px;
+}
